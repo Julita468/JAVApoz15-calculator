@@ -3,5 +3,11 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans
 	http://www.springframework.org/schema/beans/spring-beans-2.5.xsd">
 
+    <bean id="PowerOperation" class="pl.sda.spring.operation.PowerOperation"/>
+
     <bean id="multiplicationOperation" class="pl.sda.spring.operation.MultiplicationOperation"/>
 </beans>
+
+
+
+
